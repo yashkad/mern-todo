@@ -28,14 +28,20 @@ I created an API that performs CRUD operations on the MongoDB database using nod
 
 
 
-
 #### Edit task
+
+```http
+  PUT /api/tasks/:id
+```
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. id Required  |
 
 #### Delete task
+```http
+  DELETE /api/tasks/:id
+```
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
@@ -69,3 +75,8 @@ I created an API that performs CRUD operations on the MongoDB database using nod
 
 - [@Yash](https://www.github.com/yashkad)
 
+
+### Finally Done
+
+
+![Wooho](https://media2.giphy.com/media/1atk8OsFofdWpQoH5Q/giphy.webp)
