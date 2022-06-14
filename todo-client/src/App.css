@@ -1,0 +1,41 @@
+body {
+  background-color: aquamarine;
+
+}
+.App {
+  width: 100vw;
+  /* height: 100vh; */
+  background-color: aquamarine;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 500px;
+  min-height: 110px;
+  padding: 10px;
+  border: 2px solid black;
+  margin-top: 5em;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 1em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  margin: 1em;
+  text-decoration: underline;
+}
+
+.task-container {
+  min-width: 500px;
+  /* min-height: 50px; */
+  /* padding: 10px; */
+  border: 2px solid black;
+  background-color: white;
+}
